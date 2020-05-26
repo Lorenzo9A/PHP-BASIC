@@ -8,6 +8,13 @@
   </head>
     <form action="producten.php" method="get"><!-- dit laten staan! -->
 
+    <?php
+
+  $producenten = ["banaan","mango","kiwi","cracker","kaas","ham","boter","brood","melk","pizza"];
+  $prijzen = [1.25,1.75,0.80,2,1.50,1.30,2.20,2.50,1.85,4.25];
+
+?>
+
     <p>Hieronder een lijst met producten die je bij ons kunt bestellen en de prijs per stuk:</p>
         <table>
             <tr>
