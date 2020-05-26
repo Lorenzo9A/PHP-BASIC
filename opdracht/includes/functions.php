@@ -19,6 +19,14 @@ function getAmount()
     echo $aantalProd;
 }
 
+function  getPrice(){
+
+    $producten = ["banaan","mango","kiwi","cracker","kaas","ham","boter","brood","melk","pizza"];
+    $prijzen = [1.25,1.75,0.80,2,1.50,1.30,2.20,2.50,1.85,4.25];
+    
+
+}
+
 function getAge()
 {
     $leeftijd = $_GET['leeftijd'] ?? 'vul een leeftijd in!';
