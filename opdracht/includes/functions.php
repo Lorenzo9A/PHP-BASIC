@@ -4,6 +4,8 @@ function getInput()
 {
     $input = $_GET['input'] ?? 'vul een waarde in hierboven en klik op [check]';
     echo $input;
+    echo" is een ";
+    echo gettype($input);
 }
 
 
@@ -47,7 +49,32 @@ function getTotal(){
 function getAge()
 {
     $leeftijd = $_GET['leeftijd'] ?? 'vul een leeftijd in!';
+
     echo $leeftijd;
+    if($leeftijd < 16){
+
+    
+        echo " je korting is: 1 euro";
+    }
+
+    if($leeftijd == 16){
+
+        echo " je korting is: 16 cent";
+    }
+
+    if($leeftijd == 17){
+
+        echo " je korting is: 17 cent";
+    }
+    if($leeftijd == 18){
+
+        echo " je korting is: 18 cent";
+    }
+    if($leeftijd == 19){
+
+        echo " je korting is: 19 cent";
+    }
+
 }
 
 ?>

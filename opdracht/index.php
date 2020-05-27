@@ -21,7 +21,7 @@
     <p>Het datatype van de waarde:
      <?php
      getInput();  
-     ?> is </p>
+     ?>  </p>
 
     </form><!-- dit laten staan! -->
     <?php
